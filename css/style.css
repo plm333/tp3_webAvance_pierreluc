@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bienvenue {
+    font-size: 30px;
+    color: rgb(0, 0, 96);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.lienAccueil {
+    font-size: 20px;
+    color: rgb(0, 0, 96);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.titre1 {
+    font-size: 20px;
+    color: rgb(0, 0, 192);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.titre2 {
+    font-size: 100px;
+    color: rgb(0, 0, 192);
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(255, 0, 242);
+}
+
+section {
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    font-size: 20px;
+    height: 60px;
+    text-decoration: underline;
+}
+
+td {
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+input, select, option {
+    background-color: aliceblue;
+    border-radius: 25px;
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.activerBtn:hover {
+    color: white;
+    background-color: black;
+}
+
+label {
+    font-size: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.ajouterMembre {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
